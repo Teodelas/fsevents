@@ -1,0 +1,13 @@
+{
+  "name": "fsevents-app",
+  "version": "1.0.0",
+  "description": "A Node.js app using fsevents",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "fsevents": "^2.3.2"
+  }
+}
+
