@@ -1,6 +1,6 @@
 const fsevents = require('fsevents');
 
-const path = '/path/to/watch';
+const path = '/Users/ec2-user';
 const stop = fsevents.watch(path, (path, flags, id) => {
   const info = fsevents.getInfo(path, flags, id);
   console.log('File event:', info);
